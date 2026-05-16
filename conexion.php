@@ -1,0 +1,15 @@
+<?php
+$servidor = "localhost";
+$usuario = "root";
+$password = "";
+$base_datos = "escape_room";
+$puerto = 3307;
+
+$conexion = new mysqli($servidor, $usuario, $password, $base_datos, $puerto);
+
+if ($conexion->connect_error) {
+    die("Error de conexión: " . $conexion->connect_error);
+}
+
+$conexion->set_charset("utf8");
+?>
