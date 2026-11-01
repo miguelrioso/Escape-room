@@ -8,6 +8,14 @@ Web-based escape room game built with PHP, MySQL and JavaScript. Players answer 
 - Questions and game data stored in a MySQL database
 - Final screen shown when the game is completed
 
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/start%201.jpg" width="280" alt="Start screen" />
+  <img src="screenshots/question%202.jpg" width="280" alt="Question screen" />
+  <img src="screenshots/final%203.jpg" width="280" alt="Final screen" />
+</p>
+
 ## Tech stack
 
 - PHP (mysqli)
